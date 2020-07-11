@@ -1,0 +1,16 @@
+{
+  "name": "express-static-example",
+  "version": "1.0.0",
+  "description": "This project is made to serve as a demo of the static middleware included in\r the ExpressJS package.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "John Desrosiers <john.desro@gmail.com> (https://github.com/median-man)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

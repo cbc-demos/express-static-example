@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+
+    <!-- notice the "/" at the beginning. This means the path is relative to the
+    root of the site. (the origin) -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <nav>
+      <!-- the static middleware will create a route for "/" which sends
+      "index.html" if it is found in the directory passed to express.static -->
+      <a href="/">Home</a> |
+      <a href="/page-2.html">Page 2</a> |
+      <a href="/page-3.html">Page 3</a>
+    </nav>
+    <h1>Express Static Example</h1>
+    <!-- notice the "/" at the beginning. This means the path is relative to the
+    root of the site. (the origin) -->
+    <a href="https://en.wikipedia.org/wiki/Khalili_Collection_of_Japanese_Art">
+      <img
+        src="/images/silk.jpg"
+        alt="Japanese silk textile from the Meiji era"
+      />
+    </a>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
