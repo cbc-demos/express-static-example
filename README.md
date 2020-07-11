@@ -13,4 +13,4 @@ First, install dependencies with `npm install`. Then, run `node server.js` to st
 
 ## Explanation
 
-In order to make managing routing for static assets (css, front-end js, html, images, etc.) Express includes static middleware to performing routing to the file in the configured directory. `express.static("public")` sets up routing too all files in the `public` directory. Notice how `public` is not part of the path used when referencing these files in the front end resources.
+Express includes static middleware to make routing for static resources easy to manage. `express.static("public")` sets up routing too all files in the `public` directory. Notice how `public` is not part of the path used when referencing these files in the front end resources. The directory need not be named public. You can use any directory. Multiple directory may be mounted using the middleware.
